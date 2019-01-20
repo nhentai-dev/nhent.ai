@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html lang="en" class=" theme-black">
+  <head>
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://cdn.glitch.com/9cf1a9cd-4223-4d68-8e9d-188892573aae%2Fgo-nh.png?1547725929082">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#1f1f1f">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700">
+      <link rel="stylesheet" href="https://cdn.staticaly.com/gist/py7hon/0f963ce83a7f5bcf442331deb7020879/raw/dfecce48937409f104ce7a1cb8f369f50db87768/style.css">
+    <script src="https://cdn.staticaly.com/gist/py7hon/2056b2f2c6e2b580fb79991390b525fb/raw/4e34e064dd4db2b623651a111fd8216b0b5c8bcf/combine.js"></script>
+    <style type="text/css">
+      .footer{
+      background: #232323;
+      padding: 20px;
+      margin: 20px 0px;
+      }
+      .advertisement, .menu.right{
+      display: none!important;}
+      nav[role=navigation]{
+      position: fixed;
+      width: 100%;
+      top:0;
+      z-index: 999;
+      -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75); }
+      .news22{
+        background: #000;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index:999;
+      }
+      .pages69{
+        width: 600px;
+        height: auto;
+        margin: 3px;
+      }
+      /* For tablets: */
+      @media only screen and (max-width:800px) {
+        .pages69{
+        width: 97%;
+        }
+      }
+
+      /* For mobile phones: */  
+      @media only screen and (max-width:500px) {
+        .pages69{
+        width: 97%;
+        }
+      }
+  </style>
+    </head>
+    <%- header%>
+    <body><br><br><br>
+      <div class="news22"><marquee behavior="scroll" direction="left">Anouncement!! If the image does not appear page refresh
+  and if it still doesn't show up because this website is still in the development stage || Peringatan!! Jika gambar tidak muncul refresh halaman
+        dan jika masih tidak muncul karena situs web ini masih dalam tahap pengembangan</marquee></div>
+      <%- data%>
+      <script>
+      N.init({
+            
+            logged_in: false,
+            ads: {
+              show_popunders: false
+            }
+          });
+                  </script>
+  <div class="footer">
+  <div>
+    Join Discord For Issue & Bugs Website : <a href="https://discord.gg/cY7b3pd" title="Join">JOIN</a>
+        </div>
+        <div>
+    © 2019 nHentai.net x nH
+        </div>
+      </div>
+    </body>
+  </html>

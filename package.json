@@ -1,0 +1,19 @@
+{
+  "name": "nhentai.net",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "*",
+    "debug": "*",
+    "ejs": "*",
+    "express": "*",
+    "morgan": "*",
+    "request": "^2.88.0",
+    "serve-favicon": "*"
+  }
+}
