@@ -26,16 +26,19 @@ router.get('/g/:id',function (req,res,next) {
       $('#bigcontainer').filter(function () {
         data+=$(this);
       });
-      a.each(function (i,link) {
-        var u = $(link).attr("data-src");
-        console.log(u);
-        var b = u.replace("//","").split("/");
-        var i= b.length;
-        var c = b[i-2];
-        var d = b[i-1];
-        d=d.replace("t.",".");
-        var x = "<img src='//cdn.staticaly.com/img/i.nhentai.net/galleries/"+c+"/"+d+"' class='pages69' style='display:inline-block;'>";
-        data+=x;
+//      a.each(function (i,link) {
+//        var u = $(link).attr("data-src");
+//        console.log(u);
+//        var b = u.replace("//","").split("/");
+//        var i= b.length;
+//        var c = b[i-2];
+//        var d = b[i-1];
+//        d=d.replace("t.",".");
+//        var x = "<img src='//cdn.staticaly.com/img/i.nhentai.net/galleries/"+c+"/"+d+"' class='pages69' style='display:inline-block;'>";
+//        data+=x;
+//     });
+      $('#thumbnail-container').filter(function () {
+        data+=$(this);
       });
       $("#related-container").filter(function () {
         data+=$(this);
