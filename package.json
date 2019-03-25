@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node www"
+    "start": "set PORT=3000 && node www"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
